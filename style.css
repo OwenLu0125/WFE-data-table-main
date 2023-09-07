@@ -131,7 +131,7 @@ body {
   margin-bottom: 34px;
   font-size: 48px;
 }
-.main__wrapper{
+.main__wrapper {
   width: 100%;
   height: 80%;
   overflow-y: auto;
@@ -146,6 +146,11 @@ body {
 .table__row {
   height: 50px;
   border-bottom: 1px solid var(--border-color);
+}
+.table__thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 .main__table .table__body > .checked {
   background-color: var(--main-color);
