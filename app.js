@@ -22,3 +22,13 @@ const darkModeToggleHandler = (event) => {
 };
 // bind the event
 darkModeToggle.addEventListener("change", darkModeToggleHandler);
+
+// table checked color
+const checkBox = document.querySelector(".table__body");
+const selectTable = (event) => {
+  const parent = event.target.closest(".table__row");
+  parent.classList.toggle("checked");
+};
+
+// bind the event
+checkBox.addEventListener("change", selectTable);

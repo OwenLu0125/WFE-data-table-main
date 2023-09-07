@@ -82,7 +82,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100px;
-  background-color: var( --main-dark);
+  background-color: var(--main-dark);
   padding-top: 30px;
 }
 .sidebar__home {
@@ -141,6 +141,9 @@ body {
 .table__row {
   height: 50px;
   border-bottom: 1px solid var(--border-color);
+}
+.main__table .table__body > .checked {
+  background-color: var(--main-color);
 }
 .table__cell {
   text-align: center;
