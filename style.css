@@ -131,6 +131,11 @@ body {
   margin-bottom: 34px;
   font-size: 48px;
 }
+.main__wrapper{
+  width: 100%;
+  height: 80%;
+  overflow-y: auto;
+}
 .main__table {
   background: var(--table-background-color);
 }
